@@ -1,10 +1,29 @@
 body {
-	background-color: captiontext;
+	background-color:captiontext
+	;
 }
-.about-me {
+
+ #current-link {
+ 	text-decoration: 
+ }
+
+.uppercase {
+	font-size: 80px;
+}
+h1{
+	background-color: white;
+}
+img{
+	width: 700px;
+	height: 500px;
+}
+article{
 	text-align: center;
+
+} 
+h2 {
 	color: white;
-nav a { color: blue;
 }
- 
+article p {
+	color: white;
 }
