@@ -1,6 +1,6 @@
 body {
-	background-color:captiontext
-	;
+	background-color:grey;
+	
 }
 
  #current-link {
@@ -8,14 +8,18 @@ body {
  }
 
 .uppercase {
-	font-size: 80px;
+	font-size: 30px;
 }
 h1{
-	background-color: white;
+	
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+	margin-left: 300px ;
+	margin-right: 300px;
 }
 img{
 	width: 700px;
-	height: 500px;
+	height: auto;
 }
 article{
 	text-align: center;
@@ -26,4 +30,14 @@ h2 {
 }
 article p {
 	color: white;
+}
+button {
+	width: 400px;
+}
+.largertextsize {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+nav a {
+	color: navy;
 }
