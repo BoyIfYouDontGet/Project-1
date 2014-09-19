@@ -1,9 +1,9 @@
 body {
 	
-background-image:url(http://images2.alphacoders.com/191/19102.jpg);
-	background-repeat: no-repeat center center fixed;
+background-image:url(https://unsplash.imgix.net/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pass.jpg?q=75&fm=jpg&auto=format&s=a76164fe362bb83767b7a3ab6ed9e0e0);
+	background-repeat: no-repeat;
 	background-size: 100%;
-	font-family: 'Erica One', cursive;
+	font-family: 'Open Sans', sans-serif;
 }
 
  #current-link {
@@ -30,16 +30,17 @@ article{
 
 } 
 h2 {
-color: red;
+color: firebrick;
 }
 article p {
-	color: red;
+	color: firebrick ;
 	width: 400px;
 }
 .largertextsize {
 	font-size: 20px;
 	margin-bottom: 0px;
-	color: red;
+	color: firebrick
+;
 	text-align: center;
 }
 nav a {
@@ -48,3 +49,25 @@ nav a {
 #Paragraph-2{
 	font-size: 20px;
 	}
+.container {
+	width: 960px;
+	height: 960px;
+}
+
+@media screen and (max-width:959px){
+	.container {
+		width: 100%;
+	}
+	#Paragraph-2{ 
+		width: 70%;
+	}
+	.largertextsize {
+		width: 30%;
+	}
+	body {
+		width: 100%;
+	}
+	.uppercase {
+		width: 100%;
+	}
+}
