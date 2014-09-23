@@ -1,9 +1,10 @@
 body {
 	
-background-image:url(https://unsplash.imgix.net/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pass.jpg?q=75&fm=jpg&auto=format&s=a76164fe362bb83767b7a3ab6ed9e0e0);
-	background-repeat: no-repeat;
-
-	background-size: 100% 100% ;
+background: url(https://unsplash.imgix.net/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pass.jpg?q=75&fm=jpg&auto=format&s=a76164fe362bb83767b7a3ab6ed9e0e0) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 }
 
