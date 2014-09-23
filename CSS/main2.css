@@ -1,7 +1,9 @@
 body {
-	background-image:url(http://i.imgur.com/jD1Bqfy.jpg);
-	background-repeat: no-repeat center center fixed;
-	background-size: 100%;
+	background: url(http://i.imgur.com/jD1Bqfy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	font-family: 'Alegreya SC', serif;
 }
 #current-link {
