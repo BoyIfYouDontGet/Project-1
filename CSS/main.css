@@ -4,7 +4,8 @@ background: url(https://unsplash.imgix.net/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pas
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  
+  background-size: 100% 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,7 +57,7 @@ nav a {
 	height: 667px;
 }
 
-@media screen and (max-width:1366px){
+@media (max-width:1366px){
 	.container {
 		width: 100%;
 	}
@@ -68,19 +69,18 @@ nav a {
 	
 	}
 }
-@media all and (max-width:1366px) { /* screen size until 1200px */
+@media  (max-width:1366px) { /* screen size until 1200px */
     body {
         font-size: 1.5em; /* 1.5x default size */
     }
 }
-@media all and (max-width: 1000px) { /* screen size until 1000px */
+@media  (max-width: 750px) { /* screen size until 1000px */
     body {
         font-size: 1.2em; /* 1.2x default size */
         }
     }
-@media all and (max-width: 500px) { /* screen size until 500px */
+@media (max-width: 320px) { /* screen size until 500px */
     body {
         font-size: 0.8em; /* 0.8x default size */
         }
     }
-    
