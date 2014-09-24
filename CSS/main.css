@@ -14,7 +14,7 @@ background: url(https://unsplash.imgix.net/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pas
 
 .uppercase {
 	font-size: 30px;
-	color: black;
+	color: yellow;
 }
 h1{
 	
@@ -83,3 +83,4 @@ nav a {
         font-size: 0.8em; /* 0.8x default size */
         }
     }
+    
