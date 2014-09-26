@@ -9,9 +9,7 @@ background: url(https://unsplash.imgix.net/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pas
 	font-family: 'Open Sans', sans-serif;
 }
 
- #current-link {
- 	text-decoration: 
- }
+ 
 
 .uppercase {
 	font-size: 30px;
@@ -47,7 +45,7 @@ article p {
 	text-align: center;
 }
 nav a {
-	color: blue;
+	color: red;
 }
 #Paragraph-2{
 	font-size: 20px;
@@ -81,6 +79,22 @@ nav a {
     }
 @media (max-width: 320px) { /* screen size until 500px */
     body {
-        font-size: 0.8em; /* 0.8x default size */
+        font-size: 1.5em; /* 0.8x default size */
         }
+       
+        .uppercase {width: 50%;
+        text-align: center; 
+        margin-left:80px; 
+
+        }
+        .col-xs-2 {
+        	background-color: transparent;
+        }
+        .list-group-item {
+        	background-color: transparent;
+        }
+        #Paragraph-2 {
+        	color: firebrick;
+        }
+
     }
